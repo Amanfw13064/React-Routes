@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+button{
+  background-color: #0a5cf3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#product>#link>div>img{
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+#product>#link>div{
+  transition: all ease-in-out 1s;
+}
+#product>#link>div:hover{
+  transform: scale(1.1);
+}
+#Home>img{
+  margin: 10px;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+#productDetails>img{
+  width: 300px;
+  border-radius: 20px;
+}
+#productDetails{
+  width: 50%;
+  margin: auto;
+}
+#link{
+  text-decoration: none;
+}
+#product{
+  display: flex;
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
